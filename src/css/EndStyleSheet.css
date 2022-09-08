@@ -1,0 +1,57 @@
+.root {
+    -fx-background-image: url('../assets/LoseScreen.jpg');
+    -fx-background-repeat: no-repeat; 
+    -fx-background-size: 500 700; 
+    -fx-background-position: center center;
+    -fx-font-color: #a767f8;
+    -fx-font-family: 'Neogrey Medium';
+}
+
+#gameTitle {
+    -fx-font-size: 90px;
+    -fx-text-fill: #ffe657;
+    -fx-text-alignment: center;
+    -fx-font-weight: bold;
+    -fx-font-family: '01 Digitall', 'Arial Narrow';
+}
+
+#outcome {
+    -fx-font-size: 70px;
+    -fx-text-alignment: center;
+    -fx-text-fill: #7cbcc0;
+}
+
+#score {
+    -fx-font-size: 30px;
+    -fx-text-alignment: center;
+    -fx-text-fill: #ffffff;
+}
+
+.button {
+    -fx-background-color: 
+        linear-gradient(#ffd65b, #e68400),
+        linear-gradient(#ffef84, #f2ba44),
+        linear-gradient(#ffea6a, #efaa22),
+        linear-gradient(#ffe657 0%, #f8c202 50%, #eea10b 100%),
+        linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: #654b00;
+    -fx-font-weight: bold;
+    -fx-font-size: 18px;
+    -fx-padding: 10 20 10 20;
+    -fx-pref-width: 150;
+    -fx-font-family: 'Neogrey Medium', 'Arial Narrow';
+}
+
+.button:hover {
+    -fx-text-fill: #e4ffff;
+    -fx-background-color: 
+        linear-gradient(#a668ee, #6760b8),
+        linear-gradient(#f398fe 0%, #a668ee 50%, #6760b8 100%),
+        linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+}
+
+.label {
+    -fx-text-color: #a767f8;
+}

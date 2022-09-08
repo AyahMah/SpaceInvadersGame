@@ -1,0 +1,12 @@
+.root {
+    -fx-background-image: url('../assets/GameBackground.jpg');
+    -fx-background-repeat: no-repeat; 
+    -fx-background-size: 500 700; 
+    -fx-background-position: center center;
+}
+
+.label {
+    -fx-text-fill: #ffffff;
+    -fx-font-family: 'Neogrey Medium';
+    -fx-font-size: 20px;
+}

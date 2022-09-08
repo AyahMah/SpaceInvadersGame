@@ -1,0 +1,58 @@
+.root {
+    -fx-background-image: url('../assets/StartScreen.jpg');
+    -fx-background-repeat: no-repeat; 
+    -fx-background-size: 500 700; 
+    -fx-background-position: center center;
+    -fx-font-color: #a767f8;
+    -fx-font-family: 'Neogrey Medium';
+}
+
+#gameTitle {
+    -fx-font-size: 100px;
+    -fx-text-fill: linear-gradient(to bottom, #a316b2, #37fe30);
+    -fx-text-alignment: center;
+    -fx-font-weight: bold;
+    -fx-font-family: '01 Digitall', 'Arial Narrow';
+}
+
+#controls {
+    -fx-font-size: 15px;
+    -fx-border: solid black 2px;
+    -fx-text-alignment: center;
+    -fx-border-radius: 20 20 20 20; 
+    -fx-background-radius: 20 20 20 20;
+    -fx-background-color: rgba(72,46,114,0.8);
+    -fx-padding: 25 25 25 25;
+    -fx-text-fill: #f091fe;
+    -fx-border-width: 4;
+    -fx-border-color: rgba(72,46,114,1);
+}
+
+.button {
+    -fx-background-color: 
+        linear-gradient(#ffd65b, #e68400),
+        linear-gradient(#ffef84, #f2ba44),
+        linear-gradient(#ffea6a, #efaa22),
+        linear-gradient(#ffe657 0%, #f8c202 50%, #eea10b 100%),
+        linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: #654b00;
+    -fx-font-weight: bold;
+    -fx-font-size: 20px;
+    -fx-padding: 10 20 10 20;
+    -fx-pref-width: 100;
+    -fx-font-family: 'Neogrey Medium', 'Arial Narrow';
+}
+
+.button:hover {
+    -fx-text-fill: #e4ffff;
+    -fx-background-color: 
+        linear-gradient(#a668ee, #6760b8),
+        linear-gradient(#f398fe 0%, #a668ee 50%, #6760b8 100%),
+        linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+}
+
+.label {
+    -fx-text-color: #a767f8;
+}
